@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#navbarlogo{
+    margin: 20px 0px 20px 0px;
+    height: 33px;
+    weight: 33px;
+}
+#navbarlogotext{
+    margin:5px;
+    font-weight: 600;
+    font-size: 25px;
+    color:white;
+    display: inline-block;
+}
+.navbar{
+    background-color: black;
+     height: 90px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.navbar-container{
+    display: flex;
+    justify-content:space-between;
+    height:80px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 80px;
+   
+}
+.navbar-opts{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.opt-sec1{
+   
+    display: flex;
+    justify-content:space-between;
+    margin-right: 60px;
+    list-style: none;
+    font-weight:300;
+}
+.opt-sec2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center; 
+    list-style: none;
+    font-weight:300;
+}
+.opt-sec2-li {
+    padding:5px 5px;
+    height:40px;
+    display: flex; 
+    align-items: center; 
+}
+.opt-sec1-item{
+    padding:0 15px;
+    text-decoration: none;
+    color:white;
+}
+.opt-sec2-item{
+   
+    font-size:14px;
+    font-weight:400;
+    padding:0 10px;
+    text-decoration: none;
+    color:white;
+}
+#web-logo{
+    height: 15px;
+    weight: 15px;
+}
+.profile-menue{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 5px;
+    height:44px;
+    width:80px;
+    background-color:white;
+    border-radius:22px;
+    margin:0 0px 0px 10px;
+}
+.profile-icon{
+   
+    height: 30px;
+    width: 30px;
+}
+.hamburger-menue{
+    margin-left:8px;
+    height: 13px;
+    width: 13px;
+}
+/* navbar on hover effects */
+.opt-sec2-li:hover{
+   
+    height:38px;
+    background-color:rgba(153, 152, 152, 0.363);
+    border-radius: 25px;
+}
+
+
+/* search box */
+.blackbackground{
+    padding:0 80px;
+    background-color:black;
+    display: flex; 
+    justify-content: center;
+}
+.search-bar-container{
+    border-radius:32px;
+    background-color:white;
+    height:64px;
+    width:848px;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.search-subbar-1{
+   width:250px;
+    display: flex;
+    flex-direction:column;
+    padding:14px 32px;
+}
+
+.search-subbar-2{
+    width:150px;
+     display: flex;
+     flex-direction:column;
+     padding:14px 32px;
+ }
+.search-maintxt{
+   font-size:13px;
+   font-weight: 600;
+
+}
+.search-subtxt{
+    margin-top: 3px;
+    font-size:15px;
+    font-weight:300;
+    color:grey;
+}
+.search-subbar-button{
+   width:250px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding:5px 0px 5px 30px;
+}
+.search-subbar-button img{
+   margin-right: 5px;
+    padding: 0;
+    height:50px;
+    width: 50px;
+}
+.divison{
+    height:30px;
+    width: 1px;
+    border-radius:0.5px;
+    background-color:grey;
+}
